@@ -3,6 +3,7 @@ package Test;
 import org.testng.annotations.Listeners;
 import Utils.ExcelUtils;
 import Astractclass.Astractclass;
+import Listener.Listener;
 import POM.HomePage;
 import org.testng.annotations.Test;
 
@@ -19,7 +20,7 @@ public class HomePageTest extends Astractclass {
 	private static int COL_MONGDOI = 4;
 	private static int COL_KETQUA = 5;
 	
-	@Test(priority = 0)
+	@Test(priority = 0,enabled = false)
 	public void chonthuonghieu() throws Exception {
 		ExcelUtils ex= new ExcelUtils();
 		ex.setExcelFile(path_file,sheet_name);

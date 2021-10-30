@@ -8,7 +8,6 @@
           <include name="afterTest"/>
           <include name="before"/>
           <include name="chon_menu"/>
-          <include name="chonthuonghieu"/>
         </methods>
       </class> <!-- Test.HomePageTest -->
     </classes>

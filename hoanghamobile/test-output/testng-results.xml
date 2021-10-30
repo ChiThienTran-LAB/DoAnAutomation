@@ -2,16 +2,16 @@
 <testng-results ignored="1" total="2" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-10-30T15:09:35 ICT" name="Default suite" finished-at="2021-10-30T15:09:44 ICT" duration-ms="9420">
+  <suite started-at="2021-10-30T15:21:49 ICT" name="Default suite" finished-at="2021-10-30T15:21:58 ICT" duration-ms="9000">
     <groups>
     </groups>
-    <test started-at="2021-10-30T15:09:35 ICT" name="Default test" finished-at="2021-10-30T15:09:44 ICT" duration-ms="9420">
+    <test started-at="2021-10-30T15:21:49 ICT" name="Default test" finished-at="2021-10-30T15:21:58 ICT" duration-ms="9000">
       <class name="Test.HomePageTest">
-        <test-method is-config="true" signature="before()[pri:0, instance:Test.HomePageTest@5f058f00]" started-at="2021-10-30T15:09:35 ICT" name="before" finished-at="2021-10-30T15:09:44 ICT" duration-ms="9183" status="PASS">
+        <test-method is-config="true" signature="before()[pri:0, instance:Test.HomePageTest@5f058f00]" started-at="2021-10-30T15:21:49 ICT" name="before" finished-at="2021-10-30T15:21:58 ICT" duration-ms="8715" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method signature="chon_menu()[pri:1, instance:Test.HomePageTest@5f058f00]" started-at="2021-10-30T15:09:44 ICT" name="chon_menu" finished-at="2021-10-30T15:09:44 ICT" duration-ms="71" status="FAIL">
+        <test-method signature="chon_menu()[pri:1, instance:Test.HomePageTest@5f058f00]" started-at="2021-10-30T15:21:58 ICT" name="chon_menu" finished-at="2021-10-30T15:21:58 ICT" duration-ms="87" status="FAIL">
           <exception class="java.lang.NoClassDefFoundError">
             <message>
               <![CDATA[org/slf4j/Logger]]>
@@ -67,7 +67,7 @@ at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:519)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- chon_menu -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:Test.HomePageTest@5f058f00]" started-at="2021-10-30T15:09:44 ICT" name="afterTest" finished-at="2021-10-30T15:09:44 ICT" duration-ms="118" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:Test.HomePageTest@5f058f00]" started-at="2021-10-30T15:21:58 ICT" name="afterTest" finished-at="2021-10-30T15:21:58 ICT" duration-ms="138" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->

@@ -46,7 +46,7 @@ public class HomePageTest extends Astractclass {
 		for(int i=1;i<=ex.getRowUsed();i++) { //chạy toàn bộ row
 			String data_1 = ExcelUtils.getCellData(i,COL_DATA); //điện thoại
 			String mongdoi = ExcelUtils.getCellData(i,COL_MONGDOI);	//Điện thoại di động giá rẻ, chính hãng - Hoàng Hà Mobile
-			String thucte = objHomePage.get_menu(data_1); //lấy title của menu đó VD: Điện thoại di động giá rẻ, chính hãng - Hoàng Hà Mobile
+			String thucte =objHomePage.get_menu(mongdoi); //lấy title của menu đó VD: Điện thoại di động giá rẻ, chính hãng - Hoàng Hà Mobile
 			if(thucte.equals(mongdoi)==true) { //so sánh kết quả
 				ExcelUtils.setCellData(i, COL_KETQUA, "PASSED"); //đưa vào chữ PASSED nếu kết quả là true
 			}

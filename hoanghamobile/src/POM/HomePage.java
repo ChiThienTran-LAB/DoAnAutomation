@@ -14,6 +14,7 @@ public class HomePage extends Astractclass {
 		for(int i=0;i<l_menu.size();i++) {
 			if(l_menu.get(i).getText().equals(ten_menu)==true) {
 				l_menu.get(i).click();
+				break;
 			}
 		}
 		return driver.getTitle(); 
@@ -29,6 +30,7 @@ public class HomePage extends Astractclass {
 		for(int i=0;i<=l_th.size();i++) {
 			if(l_th.get(i).getText().equals(th)==true) {
 				l_th.get(i).click();
+				break;
 			}
 		}
 		return driver.getTitle();

@@ -2,6 +2,8 @@ package POM;
 
 import java.util.List;
 
+import javax.lang.model.element.Element;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import Astractclass.Astractclass;
@@ -20,9 +22,22 @@ public class HomePage extends Astractclass {
 		return driver.getTitle(); 
 	}
 	//chan qc
-	public WebElement chan_pc() {
-		WebElement qc = driver.findElement(By.xpath("//a[@href=\"#close-modal\"]"));
-		return qc;
+	public static void chan_pc() {
+		driver.findElement(By.xpath("//a[@href=\"#close-modal\"]")).click();
+	}
+	//test
+	public static void click_tt(String para) {
+		List<WebElement> l_test = driver.findElements(By.xpath("//div[@class='top-navigation']//a[text()]"));
+		for(int j = 0 ; j<l_test.size();j++) {
+			if(l_test.get(j).getText().equals(para)==true) {
+				l_test.get(j).click();
+				break;
+			}
+		}
+	}
+	//lấy title 
+	public static String lay_tt() {
+		return driver.getTitle();
 	}
 	//lay thuong hieu
 	public static String get_thuonghieu(String th) {

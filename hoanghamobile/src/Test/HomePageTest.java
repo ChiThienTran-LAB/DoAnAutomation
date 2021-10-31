@@ -1,12 +1,11 @@
 package Test;
 
+import org.testng.annotations.Test;
 import org.testng.annotations.Listeners;
 import Utils.ExcelUtils;
 import Astractclass.Astractclass;
 import Listener.Listener;
 import POM.HomePage;
-import org.testng.annotations.Test;
-
 @Listeners (Listener.class)
 public class HomePageTest extends Astractclass {
 	//POM
@@ -19,7 +18,10 @@ public class HomePageTest extends Astractclass {
 	private static int COL_DATA = 2;
 	private static int COL_MONGDOI = 4;
 	private static int COL_KETQUA = 5;
+	private static String Status_Passed = "PASSED";
+	private static String Status_Failed = "FAILED";
 	
+	@SuppressWarnings("static-access")
 	@Test(priority = 0,enabled = false)
 	public void chonthuonghieu() throws Exception {
 		ExcelUtils ex= new ExcelUtils();
@@ -32,14 +34,36 @@ public class HomePageTest extends Astractclass {
 			String mongdoi = ExcelUtils.getCellData(i,COL_MONGDOI);
 			String thucte = objHomePage.get_thuonghieu(data_1);
 			if(thucte.equals(mongdoi)==true) {
-				ExcelUtils.setCellData(i, COL_KETQUA, "PASSED");
+				ExcelUtils.setCellData(i, COL_KETQUA, Status_Passed);
 			}
 			else {
-				ExcelUtils.setCellData(i, COL_KETQUA, "Failed");
+				ExcelUtils.setCellData(i, COL_KETQUA, Status_Failed);
 			}
 		}
 	}	
-	@Test(priority = 1)
+	@SuppressWarnings("static-access")
+	@Test(priority = 0)
+	public void click_test() throws Exception {
+		ExcelUtils.setExcelFile(path_file,"Check_Title");
+		objHomePage.chan_pc();
+		for(int x=1;x<=ExcelUtils.getRowUsed();x++) {
+			String data = ExcelUtils.getCellData(x, 2);
+			String mongdoi = ExcelUtils.getCellData(x, 4);
+			objHomePage.click_tt(data);
+			String thucte = objHomePage.lay_tt();
+			if(thucte.equals(mongdoi)==true) {
+				ExcelUtils.setCellData(x, 5, Status_Passed);
+			}
+			else {
+				ExcelUtils.setCellData(x, 5, Status_Failed);
+			}
+		}
+//		objHomePage.click_tt("Tuyển dụng");
+//		String kq = objHomePage.lay_tt();
+//		System.out.println("Page title: "+kq);
+	}
+	@SuppressWarnings("static-access")
+	@Test(priority = 1,enabled = false)
 	public void chon_menu() throws Exception {
 		ExcelUtils ex= new ExcelUtils();
 		ex.setExcelFile(path_file,sheet_name_2);

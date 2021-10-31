@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\ChiThien\AppData\Local\Temp\testng-eclipse--645322884\testng-customsuite.xml</span>
+                    <span>C:\Users\ChiThien\AppData\Local\Temp\testng-eclipse-990928903\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -104,7 +104,7 @@
                     <div class="method-list-content failed suite-Default_suite">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="Test.HomePageTest" class="method navigator-link" hash-for-method="chon_menu">chon_menu</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="Test.HomePageTest" class="method navigator-link" hash-for-method="click_test">click_test</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Default_suite -->
@@ -127,9 +127,9 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="chon_menu">
-                  </a> <!-- chon_menu -->
-                  <span class="method-name">chon_menu</span>
+                  <a name="click_test">
+                  </a> <!-- click_test -->
+                  <span class="method-name">click_test</span>
                   <div class="stack-trace">java.lang.NoClassDefFoundError: org/slf4j/Logger
 	at org.apache.logging.slf4j.SLF4JLoggerContext.getLogger(SLF4JLoggerContext.java:39)
 	at org.apache.log4j.Category.&lt;init&gt;(Category.java:82)
@@ -140,7 +140,7 @@
 	at org.apache.log4j.Category.getInstance(Category.java:134)
 	at org.apache.log4j.Logger.getLogger(Logger.java:41)
 	at Utils.ExcelUtils.&lt;clinit&gt;(ExcelUtils.java:29)
-	at Test.HomePageTest.chon_menu(HomePageTest.java:44)
+	at Test.HomePageTest.click_test(HomePageTest.java:47)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -183,7 +183,7 @@ Caused by: java.lang.ClassNotFoundException: org.slf4j.Logger
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\ChiThien\AppData\Local\Temp\testng-eclipse--645322884\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\ChiThien\AppData\Local\Temp\testng-eclipse-990928903\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -234,14 +234,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'chon_menu')
+data.setCell(0, 1, 'click_test')
 data.setCell(0, 2, 'Test.HomePageTest')
-data.setCell(0, 3, 87);
+data.setCell(0, 3, 85);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 87 ms</span>
+              <span class="suite-total-time">Total running time: 85 ms</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -256,12 +256,14 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">1 ignored method</span>
+            <span class="header-content">2 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
               <span class="ignored-class-name">Test.HomePageTest</span>
               <div class="ignored-methods-div">
+                <span class="ignored-method-name">chon_menu</span>
+                <br/>
                 <span class="ignored-method-name">chonthuonghieu</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
@@ -282,12 +284,12 @@ return data;
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">chon_menu</span>
-                <span class="method-start">8760 ms</span>
+                <span class="method-name">click_test</span>
+                <span class="method-start">13385 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">8854 ms</span>
+                <span class="method-start">13478 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

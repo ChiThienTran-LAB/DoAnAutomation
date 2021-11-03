@@ -7,7 +7,7 @@
         <methods>
           <include name="afterTest"/>
           <include name="before"/>
-          <include name="chonthuonghieu"/>
+          <include name="click_test"/>
         </methods>
       </class> <!-- Test.HomePageTest -->
     </classes>

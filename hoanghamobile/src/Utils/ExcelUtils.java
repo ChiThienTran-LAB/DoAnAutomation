@@ -10,7 +10,6 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Iterator;
 import java.util.Locale;
-
 import org.apache.log4j.Logger;
 import org.apache.poi.hssf.usermodel.HSSFRow;
 import org.apache.poi.ss.usermodel.DataFormat;
@@ -188,7 +187,7 @@ public class ExcelUtils {
 			return "";
 		}
 	}
-
+	
 	public static Integer getNumericCellData(int RowNum, int ColNum) throws Exception {
 		try {
 			Cell = ExcelWSheet.getRow(RowNum).getCell(ColNum);

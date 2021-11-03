@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Oct 30 14:02:23 ICT 2021</td>
+<td>Started on:</td><td>Wed Nov 03 14:05:56 ICT 2021</td>
 </tr>
-<tr><td>Total time:</td><td>9 seconds (9814 ms)</td>
+<tr><td>Total time:</td><td>18 seconds (18098 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,13 +75,20 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='Test.HomePageTest.chonthuonghieu()'><b>chonthuonghieu</b><br>Test class: Test.HomePageTest</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;POM.HomePage.chan_pc()&quot; because &quot;this.objHomePage&quot; is null
-	at Test.HomePageTest.chonthuonghieu(HomePageTest.java:23)
+<td title='Test.HomePageTest.click_test()'><b>click_test</b><br>Test class: Test.HomePageTest</td>
+<td><div><pre>java.lang.NoClassDefFoundError: org/apache/commons/collections4/ListValuedMap
+	at Utils.ExcelUtils.setExcelFile(ExcelUtils.java:39)
+	at Test.HomePageTest.click_test(HomePageTest.java:49)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2023026843", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2023026843'><pre>java.lang.NullPointerException: Cannot invoke &quot;POM.HomePage.chan_pc()&quot; because &quot;this.objHomePage&quot; is null
-	at Test.HomePageTest.chonthuonghieu(HomePageTest.java:23)
+Caused by: java.lang.ClassNotFoundException: org.apache.commons.collections4.ListValuedMap
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:636)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:182)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:519)
+	... 30 more
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace778337881", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace778337881'><pre>java.lang.NoClassDefFoundError: org/apache/commons/collections4/ListValuedMap
+	at Utils.ExcelUtils.setExcelFile(ExcelUtils.java:39)
+	at Test.HomePageTest.click_test(HomePageTest.java:49)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -110,9 +117,14 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.ClassNotFoundException: org.apache.commons.collections4.ListValuedMap
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:636)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:182)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:519)
+	... 30 more
 </pre></div></td>
 <td>0</td>
-<td>Test.HomePageTest@6eda5c9</td></tr>
+<td>Test.HomePageTest@6fe7aac8</td></tr>
 </table><p>
 </body>
 </html>

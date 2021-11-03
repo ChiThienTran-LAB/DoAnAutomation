@@ -1,73 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="3" passed="0" failed="1" skipped="0">
+<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-10-31T14:10:19 ICT" name="Default suite" finished-at="2021-10-31T14:10:33 ICT" duration-ms="13602">
+  <suite started-at="2021-11-03T15:12:47 ICT" name="Default suite" finished-at="2021-11-03T15:13:24 ICT" duration-ms="37477">
     <groups>
     </groups>
-    <test started-at="2021-10-31T14:10:19 ICT" name="Default test" finished-at="2021-10-31T14:10:33 ICT" duration-ms="13602">
+    <test started-at="2021-11-03T15:12:47 ICT" name="Default test" finished-at="2021-11-03T15:13:24 ICT" duration-ms="37477">
       <class name="Test.HomePageTest">
-        <test-method is-config="true" signature="before()[pri:0, instance:Test.HomePageTest@192d43ce]" started-at="2021-10-31T14:10:19 ICT" name="before" finished-at="2021-10-31T14:10:33 ICT" duration-ms="13350" status="PASS">
+        <test-method is-config="true" signature="before()[pri:0, instance:Test.HomePageTest@5a63f509]" started-at="2021-11-03T15:12:47 ICT" name="before" finished-at="2021-11-03T15:13:18 ICT" duration-ms="30728" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method signature="click_test()[pri:0, instance:Test.HomePageTest@192d43ce]" started-at="2021-10-31T14:10:33 ICT" name="click_test" finished-at="2021-10-31T14:10:33 ICT" duration-ms="85" status="FAIL">
-          <exception class="java.lang.NoClassDefFoundError">
-            <message>
-              <![CDATA[org/slf4j/Logger]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NoClassDefFoundError: org/slf4j/Logger
-at org.apache.logging.slf4j.SLF4JLoggerContext.getLogger(SLF4JLoggerContext.java:39)
-at org.apache.log4j.Category.<init>(Category.java:82)
-at org.apache.log4j.Logger.<init>(Logger.java:33)
-at org.apache.log4j.Category$PrivateAdapter.newLogger(Category.java:523)
-at org.apache.log4j.Category.getInstance(Category.java:124)
-at org.apache.log4j.Category.getInstance(Category.java:104)
-at org.apache.log4j.Category.getInstance(Category.java:134)
-at org.apache.log4j.Logger.getLogger(Logger.java:41)
-at Utils.ExcelUtils.<clinit>(ExcelUtils.java:29)
-at Test.HomePageTest.click_test(HomePageTest.java:47)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: java.lang.ClassNotFoundException: org.slf4j.Logger
-at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:636)
-at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:182)
-at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:519)
-... 38 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NoClassDefFoundError -->
+        <test-method signature="check_chon_menu()[pri:0, instance:Test.HomePageTest@5a63f509]" started-at="2021-11-03T15:13:18 ICT" name="check_chon_menu" finished-at="2021-11-03T15:13:20 ICT" duration-ms="2562" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- click_test -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:Test.HomePageTest@192d43ce]" started-at="2021-10-31T14:10:33 ICT" name="afterTest" finished-at="2021-10-31T14:10:33 ICT" duration-ms="118" status="PASS">
+        </test-method> <!-- check_chon_menu -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:Test.HomePageTest@5a63f509]" started-at="2021-11-03T15:13:20 ICT" name="afterTest" finished-at="2021-11-03T15:13:24 ICT" duration-ms="4150" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->

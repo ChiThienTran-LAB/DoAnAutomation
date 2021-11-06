@@ -1,21 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
+<testng-results ignored="1" total="3" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-11-03T15:12:47 ICT" name="Default suite" finished-at="2021-11-03T15:13:24 ICT" duration-ms="37477">
+  <suite started-at="2021-11-06T11:13:22 ICT" name="Default suite" finished-at="2021-11-06T11:15:12 ICT" duration-ms="110288">
     <groups>
     </groups>
-    <test started-at="2021-11-03T15:12:47 ICT" name="Default test" finished-at="2021-11-03T15:13:24 ICT" duration-ms="37477">
+    <test started-at="2021-11-06T11:13:22 ICT" name="Default test" finished-at="2021-11-06T11:15:12 ICT" duration-ms="110288">
       <class name="Test.HomePageTest">
-        <test-method is-config="true" signature="before()[pri:0, instance:Test.HomePageTest@5a63f509]" started-at="2021-11-03T15:12:47 ICT" name="before" finished-at="2021-11-03T15:13:18 ICT" duration-ms="30728" status="PASS">
+        <test-method is-config="true" signature="before()[pri:0, instance:Test.HomePageTest@5a63f509]" started-at="2021-11-06T11:13:22 ICT" name="before" finished-at="2021-11-06T11:14:07 ICT" duration-ms="45250" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method signature="check_chon_menu()[pri:0, instance:Test.HomePageTest@5a63f509]" started-at="2021-11-03T15:13:18 ICT" name="check_chon_menu" finished-at="2021-11-03T15:13:20 ICT" duration-ms="2562" status="PASS">
+        <test-method signature="HomePage_MenuTop_Check()[pri:0, instance:Test.HomePageTest@5a63f509]" started-at="2021-11-06T11:14:07 ICT" name="HomePage_MenuTop_Check" finished-at="2021-11-06T11:14:58 ICT" duration-ms="50853" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- check_chon_menu -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:Test.HomePageTest@5a63f509]" started-at="2021-11-03T15:13:20 ICT" name="afterTest" finished-at="2021-11-03T15:13:24 ICT" duration-ms="4150" status="PASS">
+        </test-method> <!-- HomePage_MenuTop_Check -->
+        <test-method signature="Check_menu_duoi()[pri:1, instance:Test.HomePageTest@5a63f509]" started-at="2021-11-06T11:14:58 ICT" name="Check_menu_duoi" finished-at="2021-11-06T11:15:12 ICT" duration-ms="13998" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Check_menu_duoi -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:Test.HomePageTest@5a63f509]" started-at="2021-11-06T11:15:12 ICT" name="afterTest" finished-at="2021-11-06T11:15:12 ICT" duration-ms="125" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->

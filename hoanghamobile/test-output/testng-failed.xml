@@ -5,9 +5,9 @@
     <classes>
       <class name="Test.HomePageTest">
         <methods>
+          <include name="Check_menu_duoi"/>
           <include name="afterTest"/>
           <include name="before"/>
-          <include name="click_test"/>
         </methods>
       </class> <!-- Test.HomePageTest -->
     </classes>

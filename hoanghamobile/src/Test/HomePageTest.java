@@ -1,6 +1,10 @@
 package Test;
 
 import org.testng.annotations.Test;
+
+import java.security.Key;
+
+import org.openqa.selenium.Keys;
 import org.testng.annotations.Listeners;
 import Utils.ExcelUtils;
 import Astractclass.Astractclass;
@@ -47,7 +51,7 @@ public class HomePageTest extends Astractclass {
 		}
 	}	
 	@SuppressWarnings("static-access")
-	@Test(priority = 0,enabled = true)
+	@Test(priority = 0,enabled = false)
 	public void HomePage_MenuTop_Check() throws Exception {
 		ExcelUtils ex = new ExcelUtils();
 		ex.setExcelFile(path_file, sheet_name_3);
@@ -72,7 +76,7 @@ public class HomePageTest extends Astractclass {
 		ex.closeandsaveFile(path_file);
 	}
 	@SuppressWarnings("static-access")
-	@Test(priority = 1, enabled = true)
+	@Test(priority = 1, enabled = false)
 	public void Check_menu_duoi() throws Exception {
 		ExcelUtils ex= new ExcelUtils();
 		ex.setExcelFile(path_file,sheet_name_2);
@@ -99,8 +103,75 @@ public class HomePageTest extends Astractclass {
 		}
 		ex.closeandsaveFile(path_file);
 	}
+	@SuppressWarnings("static-access")
+	@Test (priority = 3, enabled = true)
+	public void check_fb() throws Exception {
+		ExcelUtils ex= new ExcelUtils();
+		ex.setExcelFile(path_file,"Test");
+		objHomePage.chon_facebook();
+		String mongdoi = ex.getCellData(1, 2);
+		String thucte = objHomePage.get_title_opend_tab();
+		if(thucte.equals(mongdoi)==true) { 
+			ex.setCellData(1, 3, Status_Passed); 
+		}
+		else {
+			ex.setCellData(1, 3, Status_Failed);
+			System.out.println("Mong doi: " + mongdoi + " KQ Thuc Te: " + thucte);
+		}
+		ex.closeandsaveFile(path_file);
+	}
+	@SuppressWarnings("static-access")
+	@Test (priority = 4, enabled = true)
+	public void check_youtube() throws Exception {
+		ExcelUtils ex= new ExcelUtils();
+		ex.setExcelFile(path_file,"Test");
+		objHomePage.chon_youtube();
+		String mongdoi = ex.getCellData(2, 2);
+		String thucte = objHomePage.get_title_opend_tab();
+		if(thucte.equals(mongdoi)==true) { 
+			ex.setCellData(2, 3, Status_Passed); 
+		}
+		else {
+			ex.setCellData(2, 3, Status_Failed);
+			System.out.println("Mong doi: " + mongdoi + " KQ Thuc Te: " + thucte);
+		}
+		ex.closeandsaveFile(path_file);
+	}
+	@SuppressWarnings("static-access")
+	@Test (priority = 5, enabled = true)
+	public void check_instagram() throws Exception {
+		ExcelUtils ex= new ExcelUtils();
+		ex.setExcelFile(path_file,"Test");
+		objHomePage.chon_instagram();
+		String mongdoi = ex.getCellData(3, 2);
+		String thucte = objHomePage.get_title_opend_tab();
+		if(thucte.equals(mongdoi)==true) { 
+			ex.setCellData(3, 3, Status_Passed); 
+		}
+		else {
+			ex.setCellData(3, 3, Status_Failed);
+			System.out.println("Mong doi: " + mongdoi + " KQ Thuc Te: " + thucte);
+		}
+		ex.closeandsaveFile(path_file);
+	}
+	@SuppressWarnings("static-access")
+	@Test (priority = 6, enabled = true)
+	public void check_tiktok() throws Exception {
+		ExcelUtils ex= new ExcelUtils();
+		ex.setExcelFile(path_file,"Test");
+		objHomePage.chon_tiktok();
+		String mongdoi = ex.getCellData(4, 2);
+		String thucte = objHomePage.get_title_opend_tab();
+		if(thucte.equals(mongdoi)==true) { 
+			ex.setCellData(4, 3, Status_Passed); 
+		}
+		else {
+			ex.setCellData(4, 3, Status_Failed);
+			System.out.println("Mong doi: " + mongdoi + " KQ Thuc Te: " + thucte);
+		}
+		ex.closeandsaveFile(path_file);
+	}
 }
-
 
 
 

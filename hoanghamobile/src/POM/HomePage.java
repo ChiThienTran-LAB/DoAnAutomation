@@ -1,14 +1,25 @@
 package POM;
 
+import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
+import java.util.Set;
 
 import javax.lang.model.element.Element;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.remote.BrowserType;
+
 import Astractclass.Astractclass;
+import Utils.ExcelUtils;
+import net.bytebuddy.jar.asm.Handle;
 
 public class HomePage extends Astractclass {
+	private static final String path_file = "D:\\DOAN\\DoAnAutomation\\hoanghamobile\\src\\resources\\data.xlsx";
 	//chan qc
 	public static void chan_qc() {
 		driver.findElement(By.xpath("//a[@href=\"#close-modal\"]")).click();
@@ -50,5 +61,29 @@ public class HomePage extends Astractclass {
 				return;
 			}
 		}
+	}
+	public static void chon_facebook() {
+		WebElement cn1 = driver.findElement(By.xpath("//a[@class='blue']"));
+		cn1.click();
+	}
+	public static void chon_youtube() {
+		WebElement cn2 = driver.findElement(By.xpath("//a[@class='red']"));
+		cn2.click();
+	}
+	public static void chon_instagram() {
+		WebElement cn3 = driver.findElement(By.xpath("//a[@class='rainbow']"));
+		cn3.click();
+	}
+	public static void chon_tiktok() {
+		WebElement cn4 = driver.findElement(By.xpath("//a[@class='black']"));
+		cn4.click();
+	}
+
+	public static String get_title_opend_tab() {
+		ArrayList<String> tabs2 = new ArrayList<String> (driver.getWindowHandles());
+		String kq = driver.switchTo().window(tabs2.get(1)).getTitle();
+	    driver.close();
+	    driver.switchTo().window(tabs2.get(0));
+	    return kq;
 	}
 }

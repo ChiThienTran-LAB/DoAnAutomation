@@ -5,9 +5,9 @@
     <classes>
       <class name="Test.HomePageTest">
         <methods>
-          <include name="check_ytb"/>
           <include name="afterTest"/>
           <include name="before"/>
+          <include name="HomePage_MenuTop_Check"/>
         </methods>
       </class> <!-- Test.HomePageTest -->
     </classes>

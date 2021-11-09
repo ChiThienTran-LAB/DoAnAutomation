@@ -1,25 +1,16 @@
 package POM;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
-import java.util.Set;
-
-import javax.lang.model.element.Element;
-
 import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.remote.BrowserType;
+import org.openqa.selenium.interactions.Actions;
 
 import Astractclass.Astractclass;
 import Utils.ExcelUtils;
-import net.bytebuddy.jar.asm.Handle;
+
 
 public class HomePage extends Astractclass {
-	private static final String path_file = "D:\\DOAN\\DoAnAutomation\\hoanghamobile\\src\\resources\\data.xlsx";
 	//chan qc
 	public static void chan_qc() {
 		driver.findElement(By.xpath("//a[@href=\"#close-modal\"]")).click();
@@ -29,22 +20,12 @@ public class HomePage extends Astractclass {
 		driver.get("https://hoanghamobile.com/");	
 	}
 	//lấy title 
-	public static String lay_tt() {
+	public static String lay_tt_goc() {
 		return driver.getTitle();
-	}
-	//lay menu
-	public static void click_second_menu(String ten_menu) {
-		List<WebElement> l_menu = driver.findElements(By.xpath("//ul[@class='root']//span[contains(text(),'"+ten_menu+"')]"));
-		for(int i=0;i<l_menu.size();i++) {
-			if(l_menu.get(i).getText().equals(ten_menu)==true) {
-				l_menu.get(i).click();
-				return;
-			}
-		}
 	}
 	//lay title
 	public static void click_top_menu(String para) {
-		List<WebElement> l_test = driver.findElements(By.xpath("//div[@class='top-navigation']//a[text()]"));
+		List<WebElement> l_test = driver.findElements(By.xpath("//div[@class='top-navigation']//a"));
 		for(int j=0;j<l_test.size();j++) {
 			if(l_test.get(j).getText().equals(para)==true) {
 				l_test.get(j).click();
@@ -52,16 +33,97 @@ public class HomePage extends Astractclass {
 			}
 		}
 	}
-	//lay thuong hieu
-	public static void get_thuonghieu(String th) {
-		List<WebElement> l_th = driver.findElements(By.xpath("//div[@class='owl-stage']//label"));
-		for(int i=0;i<=l_th.size();i++) {
-			if(l_th.get(i).getText().equals(th)==true) {
-				l_th.get(i).click();
+	//chon full hang sx
+	public static void click_hang_sx(String data) {
+		Actions action = new Actions(driver);
+		action.moveToElement(driver.findElement(By.xpath("//li[@id='dien-thoai-di-dong']"))).perform();
+		List<WebElement> list_nsx = driver.findElements(By.xpath("//li[@id='dien-thoai-di-dong']//ul[@class='display-column format_3']//a"));
+		for(int i=0;i<list_nsx.size();i++) {
+			if(list_nsx.get(i).getText().equals(data)==true) {
+				list_nsx.get(i).click();
 				return;
 			}
 		}
 	}
+	//chon full menu phụ
+	public static void click_phone() {
+		WebElement cl_phone = driver.findElement(By.xpath("//li[@id='dien-thoai-di-dong']"));
+		cl_phone.click();
+		return;
+	}
+	public static void click_watch() {
+		WebElement click_watch = driver.findElement(By.xpath("//li[@id='dong-ho']"));
+		click_watch.click();
+		return;
+	}
+	public static void click_laptop() {
+		WebElement click_laptop = driver.findElement(By.xpath("//li[@id='laptop']"));
+		click_laptop.click();
+		return;
+	}
+	public static void click_tablet() {
+		WebElement click_tablet = driver.findElement(By.xpath("//li[@id='tablet']"));
+		click_tablet.click();
+		return;
+	}
+	public static void click_loatainghe() {
+		WebElement click_loatainghe = driver.findElement(By.xpath("//li[@id='loa-tai-nghe']"));
+		click_loatainghe.click();
+		return;
+	}
+	public static void click_smarthome() {
+		WebElement click_smarthome = driver.findElement(By.xpath("//li[@id='smart-home']"));
+		click_smarthome.click();
+		return;
+	}
+	public static void click_phukien() {
+		WebElement click_phukien = driver.findElement(By.xpath("//li[@id='phu-kien']"));
+		click_phukien.click();
+		return;
+	}
+	public static void click_dochoicongnghe() {
+		WebElement click_dochoicongnghe = driver.findElement(By.xpath("//li[@id='do-choi-cong-nghe']"));
+		click_dochoicongnghe.click();
+		return;
+	}
+	public static void click_khosanphamcu() {
+		WebElement click_khosanphamcu = driver.findElement(By.xpath("//li[@id='kho-san-pham-cu']"));
+		click_khosanphamcu.click();
+		return;
+	}
+	public static void click_dichvusuachua() {
+		WebElement click_dichvusuachua = driver.findElement(By.xpath("//li[@id='dich-vu-sua-chua']"));
+		click_dichvusuachua.click();
+		return;
+	}
+	public static void click_simthe() {
+		WebElement click_simthe = driver.findElement(By.xpath("//li[@id='sim-the']"));
+		click_simthe.click();
+		return;
+	}
+	public static void click_tintuc() {
+		WebElement click_tintuc = driver.findElement(By.xpath("//li[@id='tin-tuc']"));
+		click_tintuc.click();
+		return;
+	}
+	public static void click_khuyenmai() {
+		WebElement click_khuyenmai = driver.findElement(By.xpath("//li[@id='tin-khuyen-maiflashsale']"));
+		click_khuyenmai.click();
+		return;
+	}
+	public static void click_khuyenmaihot() {
+		WebElement click_khuyenmaihot = driver.findElement(By.xpath("//li[@id='khuyen-mai-hot']"));
+		click_khuyenmaihot.click();
+		return;
+	}
+	//search phone
+	public static void input_and_search_item(String para) throws Exception {
+		WebElement send_text = driver.findElement(By.xpath("//input[@id='kwd']"));
+		send_text.clear();
+		send_text.sendKeys(para);
+		driver.findElement(By.xpath("//button[@class='search']")).click();
+	}		
+
 	public static void chon_facebook() {
 		WebElement cn1 = driver.findElement(By.xpath("//a[@class='blue']"));
 		cn1.click();

@@ -2,8 +2,8 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
 	<test name = "Test">
-		<classes>
-			<class name="Test.HomePageTest"></class>
-		</classes>
+		<packages>
+			<package name='Test'/>
+		</packages>
 	</test>
 </suite>

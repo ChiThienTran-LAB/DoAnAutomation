@@ -147,5 +147,7 @@ public class HomePage extends Astractclass {
 	    driver.close();
 	    driver.switchTo().window(tabs2.get(0));
 	    return kq;
-	}
+	}	
+	
+	
 }

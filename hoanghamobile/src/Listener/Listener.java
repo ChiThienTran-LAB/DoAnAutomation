@@ -13,7 +13,7 @@ public class Listener implements ITestListener {
 	@Override
 	public void onStart(ITestContext agr0) 
 	{
-		System.out.println("Start Test");
+		System.out.println("Be Starting Test");
 	}
 	@Override
 	public void onTestFailedButWithinSuccessPercentage(ITestResult agr0) 
@@ -38,7 +38,7 @@ public class Listener implements ITestListener {
 	@Override
 	public void onTestSuccess(ITestResult agr0) 
 	{
-		System.out.println("Test Successfully");
+		//System.out.println("Test Successfully");
 	}
 	
 }

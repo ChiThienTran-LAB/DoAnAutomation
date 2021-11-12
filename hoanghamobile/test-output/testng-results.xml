@@ -1,28 +1,172 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="20" total="21" passed="1" failed="0" skipped="0">
+<testng-results ignored="2" total="27" passed="25" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-11-09T19:37:15 ICT" name="Default suite" finished-at="2021-11-09T19:37:53 ICT" duration-ms="37577">
+  <suite started-at="2021-11-12T16:19:52 ICT" name="Suite" finished-at="2021-11-12T16:21:56 ICT" duration-ms="123631">
     <groups>
+      <group name="tablet">
+        <method signature="TabletPageTest.check_thuonghieu()[pri:22, instance:Test.TabletPageTest@3daa422a]" name="check_thuonghieu" class="Test.TabletPageTest"/>
+      </group> <!-- tablet -->
+      <group name="menu_2">
+        <method signature="HomePageTest.check_CTKM()[pri:15, instance:Test.HomePageTest@4facf68f]" name="check_CTKM" class="Test.HomePageTest"/>
+        <method signature="HomePageTest.check_amthanh()[pri:6, instance:Test.HomePageTest@4facf68f]" name="check_amthanh" class="Test.HomePageTest"/>
+        <method signature="HomePageTest.check_dienthoai()[pri:2, instance:Test.HomePageTest@4facf68f]" name="check_dienthoai" class="Test.HomePageTest"/>
+        <method signature="HomePageTest.check_dochoicn()[pri:9, instance:Test.HomePageTest@4facf68f]" name="check_dochoicn" class="Test.HomePageTest"/>
+        <method signature="HomePageTest.check_dongho()[pri:3, instance:Test.HomePageTest@4facf68f]" name="check_dongho" class="Test.HomePageTest"/>
+        <method signature="HomePageTest.check_flashsale()[pri:14, instance:Test.HomePageTest@4facf68f]" name="check_flashsale" class="Test.HomePageTest"/>
+        <method signature="HomePageTest.check_laptop()[pri:4, instance:Test.HomePageTest@4facf68f]" name="check_laptop" class="Test.HomePageTest"/>
+        <method signature="HomePageTest.check_maytroi()[pri:10, instance:Test.HomePageTest@4facf68f]" name="check_maytroi" class="Test.HomePageTest"/>
+        <method signature="HomePageTest.check_phukien()[pri:8, instance:Test.HomePageTest@4facf68f]" name="check_phukien" class="Test.HomePageTest"/>
+        <method signature="HomePageTest.check_simthe()[pri:12, instance:Test.HomePageTest@4facf68f]" name="check_simthe" class="Test.HomePageTest"/>
+        <method signature="HomePageTest.check_smarthome()[pri:7, instance:Test.HomePageTest@4facf68f]" name="check_smarthome" class="Test.HomePageTest"/>
+        <method signature="HomePageTest.check_suachua()[pri:11, instance:Test.HomePageTest@4facf68f]" name="check_suachua" class="Test.HomePageTest"/>
+        <method signature="HomePageTest.check_tablet()[pri:5, instance:Test.HomePageTest@4facf68f]" name="check_tablet" class="Test.HomePageTest"/>
+        <method signature="HomePageTest.check_tintuc()[pri:13, instance:Test.HomePageTest@4facf68f]" name="check_tintuc" class="Test.HomePageTest"/>
+      </group> <!-- menu_2 -->
+      <group name="search">
+        <method signature="HomePageTest.check_search_items()[pri:20, instance:Test.HomePageTest@4facf68f]" name="check_search_items" class="Test.HomePageTest"/>
+      </group> <!-- search -->
+      <group name="4_nut_nho">
+        <method signature="HomePageTest.check_fb()[pri:16, instance:Test.HomePageTest@4facf68f]" name="check_fb" class="Test.HomePageTest"/>
+        <method signature="HomePageTest.check_instagram()[pri:18, instance:Test.HomePageTest@4facf68f]" name="check_instagram" class="Test.HomePageTest"/>
+        <method signature="HomePageTest.check_tiktok()[pri:19, instance:Test.HomePageTest@4facf68f]" name="check_tiktok" class="Test.HomePageTest"/>
+        <method signature="HomePageTest.check_youtube()[pri:17, instance:Test.HomePageTest@4facf68f]" name="check_youtube" class="Test.HomePageTest"/>
+      </group> <!-- 4_nut_nho -->
+      <group name="login">
+        <method signature="LoginPageTest.check_lg_01()[pri:0, instance:Test.LoginPageTest@72f926e6]" name="check_lg_01" class="Test.LoginPageTest"/>
+        <method signature="LoginPageTest.check_lg_02()[pri:1, instance:Test.LoginPageTest@72f926e6]" name="check_lg_02" class="Test.LoginPageTest"/>
+        <method signature="LoginPageTest.check_lg_03()[pri:2, instance:Test.LoginPageTest@72f926e6]" name="check_lg_03" class="Test.LoginPageTest"/>
+      </group> <!-- login -->
       <group name="head_menu">
-        <method signature="HomePageTest.HomePage_MenuTop_Check()[pri:1, instance:Test.HomePageTest@48ae9b55]" name="HomePage_MenuTop_Check" class="Test.HomePageTest"/>
+        <method signature="HomePageTest.HomePage_MenuTop_Check()[pri:1, instance:Test.HomePageTest@4facf68f]" name="HomePage_MenuTop_Check" class="Test.HomePageTest"/>
       </group> <!-- head_menu -->
+      <group name="hang_sx">
+        <method signature="HomePageTest.check_hangsx()[pri:21, instance:Test.HomePageTest@4facf68f]" name="check_hangsx" class="Test.HomePageTest"/>
+      </group> <!-- hang_sx -->
     </groups>
-    <test started-at="2021-11-09T19:37:15 ICT" name="Default test" finished-at="2021-11-09T19:37:53 ICT" duration-ms="37577">
-      <class name="Test.HomePageTest">
-        <test-method is-config="true" signature="before()[pri:0, instance:Test.HomePageTest@48ae9b55]" started-at="2021-11-09T19:37:15 ICT" name="before" finished-at="2021-11-09T19:37:32 ICT" duration-ms="16929" status="PASS">
+    <test started-at="2021-11-12T16:19:52 ICT" name="Test" finished-at="2021-11-12T16:21:56 ICT" duration-ms="123631">
+      <class name="Test.TabletPageTest">
+        <test-method signature="check_thuonghieu()[pri:22, instance:Test.TabletPageTest@3daa422a]" started-at="2021-11-12T16:21:28 ICT" name="check_thuonghieu" finished-at="2021-11-12T16:21:51 ICT" duration-ms="23193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_thuonghieu -->
+      </class> <!-- Test.TabletPageTest -->
+      <class name="Test.LoginPageTest">
+        <test-method is-config="true" signature="before()[pri:0, instance:Test.LoginPageTest@72f926e6]" started-at="2021-11-12T16:19:59 ICT" name="before" finished-at="2021-11-12T16:20:03 ICT" duration-ms="3566" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method signature="HomePage_MenuTop_Check()[pri:1, instance:Test.HomePageTest@48ae9b55]" started-at="2021-11-09T19:37:32 ICT" name="HomePage_MenuTop_Check" finished-at="2021-11-09T19:37:49 ICT" duration-ms="16467" status="PASS">
+        <test-method signature="check_lg_01()[pri:0, instance:Test.LoginPageTest@72f926e6]" started-at="2021-11-12T16:21:01 ICT" name="check_lg_01" finished-at="2021-11-12T16:21:02 ICT" duration-ms="1167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_lg_01 -->
+        <test-method signature="check_lg_02()[pri:1, instance:Test.LoginPageTest@72f926e6]" started-at="2021-11-12T16:21:02 ICT" name="check_lg_02" finished-at="2021-11-12T16:21:03 ICT" duration-ms="647" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_lg_02 -->
+        <test-method signature="check_lg_03()[pri:2, instance:Test.LoginPageTest@72f926e6]" started-at="2021-11-12T16:21:03 ICT" name="check_lg_03" finished-at="2021-11-12T16:21:28 ICT" duration-ms="25432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_lg_03 -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:Test.LoginPageTest@72f926e6]" started-at="2021-11-12T16:21:55 ICT" name="afterTest" finished-at="2021-11-12T16:21:56 ICT" duration-ms="130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- Test.LoginPageTest -->
+      <class name="Test.HomePageTest">
+        <test-method is-config="true" signature="before()[pri:0, instance:Test.HomePageTest@4facf68f]" started-at="2021-11-12T16:19:52 ICT" name="before" finished-at="2021-11-12T16:19:59 ICT" duration-ms="7453" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="HomePage_MenuTop_Check()[pri:1, instance:Test.HomePageTest@4facf68f]" started-at="2021-11-12T16:20:03 ICT" name="HomePage_MenuTop_Check" finished-at="2021-11-12T16:20:10 ICT" duration-ms="6959" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HomePage_MenuTop_Check -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:Test.HomePageTest@48ae9b55]" started-at="2021-11-09T19:37:49 ICT" name="afterTest" finished-at="2021-11-09T19:37:53 ICT" duration-ms="4149" status="PASS">
+        <test-method signature="check_dienthoai()[pri:2, instance:Test.HomePageTest@4facf68f]" started-at="2021-11-12T16:20:10 ICT" name="check_dienthoai" finished-at="2021-11-12T16:20:11 ICT" duration-ms="817" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_dienthoai -->
+        <test-method signature="check_dongho()[pri:3, instance:Test.HomePageTest@4facf68f]" started-at="2021-11-12T16:20:11 ICT" name="check_dongho" finished-at="2021-11-12T16:20:12 ICT" duration-ms="1178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_dongho -->
+        <test-method signature="check_laptop()[pri:4, instance:Test.HomePageTest@4facf68f]" started-at="2021-11-12T16:20:12 ICT" name="check_laptop" finished-at="2021-11-12T16:20:13 ICT" duration-ms="834" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_laptop -->
+        <test-method signature="check_tablet()[pri:5, instance:Test.HomePageTest@4facf68f]" started-at="2021-11-12T16:20:13 ICT" name="check_tablet" finished-at="2021-11-12T16:20:14 ICT" duration-ms="973" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_tablet -->
+        <test-method signature="check_amthanh()[pri:6, instance:Test.HomePageTest@4facf68f]" started-at="2021-11-12T16:20:14 ICT" name="check_amthanh" finished-at="2021-11-12T16:20:14 ICT" duration-ms="299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_amthanh -->
+        <test-method signature="check_smarthome()[pri:7, instance:Test.HomePageTest@4facf68f]" started-at="2021-11-12T16:20:14 ICT" name="check_smarthome" finished-at="2021-11-12T16:20:15 ICT" duration-ms="1242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_smarthome -->
+        <test-method signature="check_phukien()[pri:8, instance:Test.HomePageTest@4facf68f]" started-at="2021-11-12T16:20:15 ICT" name="check_phukien" finished-at="2021-11-12T16:20:16 ICT" duration-ms="1210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_phukien -->
+        <test-method signature="check_dochoicn()[pri:9, instance:Test.HomePageTest@4facf68f]" started-at="2021-11-12T16:20:16 ICT" name="check_dochoicn" finished-at="2021-11-12T16:20:18 ICT" duration-ms="1122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_dochoicn -->
+        <test-method signature="check_maytroi()[pri:10, instance:Test.HomePageTest@4facf68f]" started-at="2021-11-12T16:20:18 ICT" name="check_maytroi" finished-at="2021-11-12T16:20:18 ICT" duration-ms="795" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_maytroi -->
+        <test-method signature="check_suachua()[pri:11, instance:Test.HomePageTest@4facf68f]" started-at="2021-11-12T16:20:18 ICT" name="check_suachua" finished-at="2021-11-12T16:20:20 ICT" duration-ms="2035" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_suachua -->
+        <test-method signature="check_simthe()[pri:12, instance:Test.HomePageTest@4facf68f]" started-at="2021-11-12T16:20:20 ICT" name="check_simthe" finished-at="2021-11-12T16:20:21 ICT" duration-ms="878" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_simthe -->
+        <test-method signature="check_tintuc()[pri:13, instance:Test.HomePageTest@4facf68f]" started-at="2021-11-12T16:20:21 ICT" name="check_tintuc" finished-at="2021-11-12T16:20:28 ICT" duration-ms="6445" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_tintuc -->
+        <test-method signature="check_flashsale()[pri:14, instance:Test.HomePageTest@4facf68f]" started-at="2021-11-12T16:20:28 ICT" name="check_flashsale" finished-at="2021-11-12T16:20:29 ICT" duration-ms="858" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_flashsale -->
+        <test-method signature="check_CTKM()[pri:15, instance:Test.HomePageTest@4facf68f]" started-at="2021-11-12T16:20:29 ICT" name="check_CTKM" finished-at="2021-11-12T16:20:30 ICT" duration-ms="980" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_CTKM -->
+        <test-method signature="check_fb()[pri:16, instance:Test.HomePageTest@4facf68f]" started-at="2021-11-12T16:20:30 ICT" name="check_fb" finished-at="2021-11-12T16:20:33 ICT" duration-ms="3372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_fb -->
+        <test-method signature="check_youtube()[pri:17, instance:Test.HomePageTest@4facf68f]" started-at="2021-11-12T16:20:33 ICT" name="check_youtube" finished-at="2021-11-12T16:20:36 ICT" duration-ms="3216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_youtube -->
+        <test-method signature="check_instagram()[pri:18, instance:Test.HomePageTest@4facf68f]" started-at="2021-11-12T16:20:36 ICT" name="check_instagram" finished-at="2021-11-12T16:20:39 ICT" duration-ms="2901" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_instagram -->
+        <test-method signature="check_tiktok()[pri:19, instance:Test.HomePageTest@4facf68f]" started-at="2021-11-12T16:20:39 ICT" name="check_tiktok" finished-at="2021-11-12T16:20:42 ICT" duration-ms="2508" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_tiktok -->
+        <test-method signature="check_search_items()[pri:20, instance:Test.HomePageTest@4facf68f]" started-at="2021-11-12T16:20:42 ICT" name="check_search_items" finished-at="2021-11-12T16:20:43 ICT" duration-ms="1640" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_search_items -->
+        <test-method signature="check_hangsx()[pri:21, instance:Test.HomePageTest@4facf68f]" started-at="2021-11-12T16:20:43 ICT" name="check_hangsx" finished-at="2021-11-12T16:21:01 ICT" duration-ms="17572" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_hangsx -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:Test.HomePageTest@4facf68f]" started-at="2021-11-12T16:21:51 ICT" name="afterTest" finished-at="2021-11-12T16:21:55 ICT" duration-ms="4137" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- Test.HomePageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

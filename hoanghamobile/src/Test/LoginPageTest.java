@@ -21,7 +21,7 @@ public class LoginPageTest extends Astractclass_2 {
 	
 	@SuppressWarnings("static-access")
 	@Test(priority = 0, enabled = true, groups = {"login"})
-	public void check_lg_01() throws Exception {
+	public void LGP_01() throws Exception {
 		objLoginPage.chan_qc();
 		ExcelUtils ex = new ExcelUtils();
 		ex.setExcelFile(path_file, sheet_name);
@@ -44,7 +44,7 @@ public class LoginPageTest extends Astractclass_2 {
 	}
 	@SuppressWarnings("static-access")
 	@Test(priority = 1, enabled = true, groups = {"login"})
-	public void check_lg_02() throws Exception {
+	public void LGP_02() throws Exception {
 		ExcelUtils ex = new ExcelUtils();
 		ex.setExcelFile(path_file, sheet_name);
 		String tc = ex.getCellData(2, 1);
@@ -67,7 +67,7 @@ public class LoginPageTest extends Astractclass_2 {
 	
 	@SuppressWarnings("static-access")
 	@Test (priority = 2, enabled = true, groups = {"login"})
-	public void check_lg_03() throws Exception {
+	public void LGP_03() throws Exception {
 		ExcelUtils ex = new ExcelUtils();
 		ex.setExcelFile(path_file, sheet_name);
 		String tc = ex.getCellData(3, 1);

@@ -21,7 +21,7 @@ public class TabletPageTest extends Astractclass {
 	
 	@SuppressWarnings("static-access")
 	@Test (priority = 22, enabled = true, groups = {"tablet"})
-	public void check_thuonghieu() throws Exception {
+	public void TLP01_TLP07() throws Exception {
 	ExcelUtils ex= new ExcelUtils();
 	ex.setExcelFile(path_file, sheet_name);
 	objSmartHomePage.tablet_page();

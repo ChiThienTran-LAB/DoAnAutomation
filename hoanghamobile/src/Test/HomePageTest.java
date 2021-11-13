@@ -35,7 +35,7 @@ public class HomePageTest extends Astractclass {
 		
 	@SuppressWarnings("static-access")
 	@Test(priority = 1,enabled = true, groups = {"head_menu"})
-	public void HomePage_MenuTop_Check() throws Exception {
+	public void HMP01_to_HMP06() throws Exception {
 		ExcelUtils ex = new ExcelUtils();
 		ex.setExcelFile(path_file, sheet_name_1);
 		objHomePage.chan_qc();
@@ -59,7 +59,7 @@ public class HomePageTest extends Astractclass {
 	}
 	@SuppressWarnings("static-access")
 	@Test(groups = {"menu_2"}, priority = 2, enabled = true)
-	public void check_dienthoai() throws Exception {
+	public void HMP_07() throws Exception {
 		ExcelUtils ex = new ExcelUtils();
 		ex.setExcelFile(path_file, sheet_name_2);
 		String tc = ex.getCellData(1, COL_1);
@@ -78,7 +78,7 @@ public class HomePageTest extends Astractclass {
 	}
 	@SuppressWarnings("static-access")
 	@Test(groups = {"menu_2"}, priority = 3, enabled = true)
-	public void check_dongho() throws Exception {
+	public void HMP_08() throws Exception {
 		ExcelUtils ex = new ExcelUtils();
 		ex.setExcelFile(path_file, sheet_name_2);
 		String tc = ex.getCellData(2, COL_1);
@@ -97,7 +97,7 @@ public class HomePageTest extends Astractclass {
 	}
 	@SuppressWarnings("static-access")
 	@Test(groups = {"menu_2"}, priority = 4, enabled = true)
-	public void check_laptop() throws Exception {
+	public void HMP_09() throws Exception {
 		ExcelUtils ex = new ExcelUtils();
 		ex.setExcelFile(path_file, sheet_name_2);
 		String tc = ex.getCellData(3, COL_1);
@@ -116,7 +116,7 @@ public class HomePageTest extends Astractclass {
 	}
 	@SuppressWarnings("static-access")
 	@Test(groups = {"menu_2"}, priority = 5, enabled = true)
-	public void check_tablet() throws Exception {
+	public void HMP_10() throws Exception {
 		ExcelUtils ex = new ExcelUtils();
 		ex.setExcelFile(path_file, sheet_name_2);
 		String tc = ex.getCellData(4, COL_1);
@@ -135,7 +135,7 @@ public class HomePageTest extends Astractclass {
 	}
 	@SuppressWarnings("static-access")
 	@Test(groups = {"menu_2"}, priority = 6, enabled = true)
-	public void check_amthanh() throws Exception {
+	public void HMP_11() throws Exception {
 		ExcelUtils ex = new ExcelUtils();
 		ex.setExcelFile(path_file, sheet_name_2);
 		String tc = ex.getCellData(5, 1);
@@ -154,7 +154,7 @@ public class HomePageTest extends Astractclass {
 	}
 	@SuppressWarnings("static-access")
 	@Test(groups = {"menu_2"}, priority = 7, enabled = true)
-	public void check_smarthome() throws Exception {
+	public void HMP_12() throws Exception {
 		ExcelUtils ex = new ExcelUtils();
 		ex.setExcelFile(path_file, sheet_name_2);
 		String tc = ex.getCellData(6, COL_1);
@@ -173,7 +173,7 @@ public class HomePageTest extends Astractclass {
 	}
 	@SuppressWarnings("static-access")
 	@Test(groups = {"menu_2"}, priority = 8, enabled = true)
-	public void check_phukien() throws Exception {
+	public void HMP_13() throws Exception {
 		ExcelUtils ex = new ExcelUtils();
 		ex.setExcelFile(path_file, sheet_name_2);
 		String tc = ex.getCellData(7, COL_1);
@@ -192,7 +192,7 @@ public class HomePageTest extends Astractclass {
 	}
 	@SuppressWarnings("static-access")
 	@Test(groups = {"menu_2"}, priority = 9, enabled = true)
-	public void check_dochoicn() throws Exception {
+	public void HMP_14() throws Exception {
 		ExcelUtils ex = new ExcelUtils();
 		ex.setExcelFile(path_file, sheet_name_2);
 		String tc = ex.getCellData(8, COL_1);
@@ -211,7 +211,7 @@ public class HomePageTest extends Astractclass {
 	}
 	@SuppressWarnings("static-access")
 	@Test(groups = {"menu_2"}, priority = 10, enabled = true)
-	public void check_maytroi() throws Exception {
+	public void HMP_15() throws Exception {
 		ExcelUtils ex = new ExcelUtils();
 		ex.setExcelFile(path_file, sheet_name_2);
 		String tc = ex.getCellData(9, COL_1);
@@ -230,7 +230,7 @@ public class HomePageTest extends Astractclass {
 	}
 	@SuppressWarnings("static-access")
 	@Test(groups = {"menu_2"}, priority = 11, enabled = true)
-	public void check_suachua() throws Exception {
+	public void HMP_16() throws Exception {
 		ExcelUtils ex = new ExcelUtils();
 		ex.setExcelFile(path_file, sheet_name_2);
 		String tc = ex.getCellData(10, COL_1);
@@ -249,7 +249,7 @@ public class HomePageTest extends Astractclass {
 	}
 	@SuppressWarnings("static-access")
 	@Test(groups = {"menu_2"}, priority = 12, enabled = true)
-	public void check_simthe() throws Exception {
+	public void HMP_17() throws Exception {
 		ExcelUtils ex = new ExcelUtils();
 		ex.setExcelFile(path_file, sheet_name_2);
 		String tc = ex.getCellData(11, COL_1);
@@ -268,7 +268,7 @@ public class HomePageTest extends Astractclass {
 	}
 	@SuppressWarnings("static-access")
 	@Test(groups = {"menu_2"}, priority = 13, enabled = true)
-	public void check_tintuc() throws Exception {
+	public void HMP_18() throws Exception {
 		ExcelUtils ex = new ExcelUtils();
 		ex.setExcelFile(path_file, sheet_name_2);
 		String tc = ex.getCellData(12, COL_1);
@@ -288,7 +288,7 @@ public class HomePageTest extends Astractclass {
 	}
 	@SuppressWarnings("static-access")
 	@Test(groups = {"menu_2"}, priority = 14, enabled = true)
-	public void check_flashsale() throws Exception {
+	public void HMP_19() throws Exception {
 		ExcelUtils ex = new ExcelUtils();
 		ex.setExcelFile(path_file, sheet_name_2);
 		String tc = ex.getCellData(13, COL_1);
@@ -307,7 +307,7 @@ public class HomePageTest extends Astractclass {
 	}
 	@SuppressWarnings("static-access")
 	@Test(groups = {"menu_2"}, priority = 15, enabled = true)
-	public void check_CTKM() throws Exception {
+	public void HMP_20() throws Exception {
 		ExcelUtils ex = new ExcelUtils();
 		ex.setExcelFile(path_file, sheet_name_2);
 		String tc = ex.getCellData(14, COL_1);
@@ -329,7 +329,7 @@ public class HomePageTest extends Astractclass {
 	//check các link liên kết đến hoanghamoblie.com	
 	@SuppressWarnings("static-access")
 	@Test (groups = {"4_nut_nho"}, priority = 16, enabled = true)
-	public void check_fb() throws Exception {
+	public void HMP_21() throws Exception {
 		ExcelUtils ex= new ExcelUtils();
 		ex.setExcelFile(path_file,sheet_name_4);
 		objHomePage.chon_facebook();
@@ -346,7 +346,7 @@ public class HomePageTest extends Astractclass {
 	}
 	@SuppressWarnings("static-access")
 	@Test (groups = {"4_nut_nho"}, priority = 17, enabled = true)
-	public void check_youtube() throws Exception {
+	public void HMP_22() throws Exception {
 		ExcelUtils ex= new ExcelUtils();
 		ex.setExcelFile(path_file,sheet_name_4);
 		objHomePage.chon_youtube();
@@ -363,7 +363,7 @@ public class HomePageTest extends Astractclass {
 	}
 	@SuppressWarnings("static-access")
 	@Test (groups = {"4_nut_nho"}, priority = 18, enabled = true)
-	public void check_instagram() throws Exception {
+	public void HMP_23() throws Exception {
 		ExcelUtils ex= new ExcelUtils();
 		ex.setExcelFile(path_file,sheet_name_4);
 		objHomePage.chon_instagram();
@@ -380,7 +380,7 @@ public class HomePageTest extends Astractclass {
 	}
 	@SuppressWarnings("static-access")
 	@Test (groups = {"4_nut_nho"}, priority = 19, enabled = true)
-	public void check_tiktok() throws Exception {
+	public void HMP_24() throws Exception {
 		ExcelUtils ex= new ExcelUtils();
 		ex.setExcelFile(path_file,sheet_name_4);
 		objHomePage.chon_tiktok();
@@ -397,7 +397,7 @@ public class HomePageTest extends Astractclass {
 	}
 	@SuppressWarnings("static-access")
 	@Test(priority = 20,enabled = true, groups = {"search"})
-	public void check_search_items() throws Exception {
+	public void HMP_25() throws Exception {
 		ExcelUtils ex= new ExcelUtils();
 		ex.setExcelFile(path_file,sheet_name_5);
 		String data = ex.getCellData(1, COL_2);
@@ -415,7 +415,7 @@ public class HomePageTest extends Astractclass {
 	}
 	@SuppressWarnings("static-access")
 	@Test(priority = 21,enabled = true, groups = {"hang_sx"})
-	public void check_hangsx() throws Exception {
+	public void HMP26_to_HMP39() throws Exception {
 		ExcelUtils ex= new ExcelUtils();
 		ex.setExcelFile(path_file, sheet_name_6);
 		for(int i=1;i<=ex.getRowUsed();i++) {

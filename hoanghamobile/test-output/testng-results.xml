@@ -2,7 +2,7 @@
 <testng-results ignored="2" total="27" passed="25" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-11-19T17:20:00 ICT" name="Suite" finished-at="2021-11-19T17:22:19 ICT" duration-ms="138559">
+  <suite started-at="2021-11-20T09:26:38 ICT" name="Suite" finished-at="2021-11-20T09:28:34 ICT" duration-ms="116802">
     <groups>
       <group name="tablet">
         <method signature="TabletPageTest.TLP01_TLP07()[pri:22, instance:Test.TabletPageTest@3daa422a]" name="TLP01_TLP07" class="Test.TabletPageTest"/>
@@ -44,125 +44,125 @@
         <method signature="HomePageTest.HMP26_to_HMP39()[pri:21, instance:Test.HomePageTest@4facf68f]" name="HMP26_to_HMP39" class="Test.HomePageTest"/>
       </group> <!-- hang_sx -->
     </groups>
-    <test started-at="2021-11-19T17:20:00 ICT" name="Test" finished-at="2021-11-19T17:22:19 ICT" duration-ms="138559">
+    <test started-at="2021-11-20T09:26:38 ICT" name="Test" finished-at="2021-11-20T09:28:34 ICT" duration-ms="116802">
       <class name="Test.TabletPageTest">
-        <test-method signature="TLP01_TLP07()[pri:22, instance:Test.TabletPageTest@3daa422a]" started-at="2021-11-19T17:21:52 ICT" name="TLP01_TLP07" finished-at="2021-11-19T17:22:10 ICT" duration-ms="18531" status="PASS">
+        <test-method signature="TLP01_TLP07()[pri:22, instance:Test.TabletPageTest@3daa422a]" started-at="2021-11-20T09:28:11 ICT" name="TLP01_TLP07" finished-at="2021-11-20T09:28:26 ICT" duration-ms="15127" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TLP01_TLP07 -->
       </class> <!-- Test.TabletPageTest -->
       <class name="Test.LoginPageTest">
-        <test-method is-config="true" signature="before()[pri:0, instance:Test.LoginPageTest@72f926e6]" started-at="2021-11-19T17:20:11 ICT" name="before" finished-at="2021-11-19T17:20:26 ICT" duration-ms="15011" status="PASS">
+        <test-method is-config="true" signature="before()[pri:0, instance:Test.LoginPageTest@72f926e6]" started-at="2021-11-20T09:26:46 ICT" name="before" finished-at="2021-11-20T09:26:51 ICT" duration-ms="4810" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method signature="LGP_01()[pri:0, instance:Test.LoginPageTest@72f926e6]" started-at="2021-11-19T17:21:46 ICT" name="LGP_01" finished-at="2021-11-19T17:21:47 ICT" duration-ms="1023" status="PASS">
+        <test-method signature="LGP_01()[pri:0, instance:Test.LoginPageTest@72f926e6]" started-at="2021-11-20T09:28:04 ICT" name="LGP_01" finished-at="2021-11-20T09:28:05 ICT" duration-ms="1391" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LGP_01 -->
-        <test-method signature="LGP_02()[pri:1, instance:Test.LoginPageTest@72f926e6]" started-at="2021-11-19T17:21:47 ICT" name="LGP_02" finished-at="2021-11-19T17:21:48 ICT" duration-ms="1044" status="PASS">
+        <test-method signature="LGP_02()[pri:1, instance:Test.LoginPageTest@72f926e6]" started-at="2021-11-20T09:28:05 ICT" name="LGP_02" finished-at="2021-11-20T09:28:06 ICT" duration-ms="772" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LGP_02 -->
-        <test-method signature="LGP_03()[pri:2, instance:Test.LoginPageTest@72f926e6]" started-at="2021-11-19T17:21:48 ICT" name="LGP_03" finished-at="2021-11-19T17:21:52 ICT" duration-ms="4377" status="PASS">
+        <test-method signature="LGP_03()[pri:2, instance:Test.LoginPageTest@72f926e6]" started-at="2021-11-20T09:28:06 ICT" name="LGP_03" finished-at="2021-11-20T09:28:11 ICT" duration-ms="5236" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LGP_03 -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:Test.LoginPageTest@72f926e6]" started-at="2021-11-19T17:22:15 ICT" name="afterTest" finished-at="2021-11-19T17:22:19 ICT" duration-ms="4114" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:Test.LoginPageTest@72f926e6]" started-at="2021-11-20T09:28:30 ICT" name="afterTest" finished-at="2021-11-20T09:28:34 ICT" duration-ms="4126" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- Test.LoginPageTest -->
       <class name="Test.HomePageTest">
-        <test-method is-config="true" signature="before()[pri:0, instance:Test.HomePageTest@4facf68f]" started-at="2021-11-19T17:20:00 ICT" name="before" finished-at="2021-11-19T17:20:11 ICT" duration-ms="11089" status="PASS">
+        <test-method is-config="true" signature="before()[pri:0, instance:Test.HomePageTest@4facf68f]" started-at="2021-11-20T09:26:38 ICT" name="before" finished-at="2021-11-20T09:26:46 ICT" duration-ms="8357" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method signature="HMP01_to_HMP06()[pri:1, instance:Test.HomePageTest@4facf68f]" started-at="2021-11-19T17:20:26 ICT" name="HMP01_to_HMP06" finished-at="2021-11-19T17:20:37 ICT" duration-ms="10550" status="PASS">
+        <test-method signature="HMP01_to_HMP06()[pri:1, instance:Test.HomePageTest@4facf68f]" started-at="2021-11-20T09:26:51 ICT" name="HMP01_to_HMP06" finished-at="2021-11-20T09:26:59 ICT" duration-ms="8646" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HMP01_to_HMP06 -->
-        <test-method signature="HMP_07()[pri:2, instance:Test.HomePageTest@4facf68f]" started-at="2021-11-19T17:20:37 ICT" name="HMP_07" finished-at="2021-11-19T17:20:38 ICT" duration-ms="1301" status="PASS">
+        <test-method signature="HMP_07()[pri:2, instance:Test.HomePageTest@4facf68f]" started-at="2021-11-20T09:26:59 ICT" name="HMP_07" finished-at="2021-11-20T09:27:01 ICT" duration-ms="1112" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HMP_07 -->
-        <test-method signature="HMP_08()[pri:3, instance:Test.HomePageTest@4facf68f]" started-at="2021-11-19T17:20:38 ICT" name="HMP_08" finished-at="2021-11-19T17:20:39 ICT" duration-ms="1044" status="PASS">
+        <test-method signature="HMP_08()[pri:3, instance:Test.HomePageTest@4facf68f]" started-at="2021-11-20T09:27:01 ICT" name="HMP_08" finished-at="2021-11-20T09:27:02 ICT" duration-ms="1081" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HMP_08 -->
-        <test-method signature="HMP_09()[pri:4, instance:Test.HomePageTest@4facf68f]" started-at="2021-11-19T17:20:39 ICT" name="HMP_09" finished-at="2021-11-19T17:20:40 ICT" duration-ms="871" status="PASS">
+        <test-method signature="HMP_09()[pri:4, instance:Test.HomePageTest@4facf68f]" started-at="2021-11-20T09:27:02 ICT" name="HMP_09" finished-at="2021-11-20T09:27:03 ICT" duration-ms="1300" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HMP_09 -->
-        <test-method signature="HMP_10()[pri:5, instance:Test.HomePageTest@4facf68f]" started-at="2021-11-19T17:20:40 ICT" name="HMP_10" finished-at="2021-11-19T17:20:41 ICT" duration-ms="1396" status="PASS">
+        <test-method signature="HMP_10()[pri:5, instance:Test.HomePageTest@4facf68f]" started-at="2021-11-20T09:27:03 ICT" name="HMP_10" finished-at="2021-11-20T09:27:04 ICT" duration-ms="1087" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HMP_10 -->
-        <test-method signature="HMP_11()[pri:6, instance:Test.HomePageTest@4facf68f]" started-at="2021-11-19T17:20:41 ICT" name="HMP_11" finished-at="2021-11-19T17:20:43 ICT" duration-ms="1196" status="PASS">
+        <test-method signature="HMP_11()[pri:6, instance:Test.HomePageTest@4facf68f]" started-at="2021-11-20T09:27:04 ICT" name="HMP_11" finished-at="2021-11-20T09:27:06 ICT" duration-ms="1563" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HMP_11 -->
-        <test-method signature="HMP_12()[pri:7, instance:Test.HomePageTest@4facf68f]" started-at="2021-11-19T17:20:43 ICT" name="HMP_12" finished-at="2021-11-19T17:20:43 ICT" duration-ms="821" status="PASS">
+        <test-method signature="HMP_12()[pri:7, instance:Test.HomePageTest@4facf68f]" started-at="2021-11-20T09:27:06 ICT" name="HMP_12" finished-at="2021-11-20T09:27:06 ICT" duration-ms="827" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HMP_12 -->
-        <test-method signature="HMP_13()[pri:8, instance:Test.HomePageTest@4facf68f]" started-at="2021-11-19T17:20:43 ICT" name="HMP_13" finished-at="2021-11-19T17:20:44 ICT" duration-ms="908" status="PASS">
+        <test-method signature="HMP_13()[pri:8, instance:Test.HomePageTest@4facf68f]" started-at="2021-11-20T09:27:06 ICT" name="HMP_13" finished-at="2021-11-20T09:27:07 ICT" duration-ms="793" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HMP_13 -->
-        <test-method signature="HMP_14()[pri:9, instance:Test.HomePageTest@4facf68f]" started-at="2021-11-19T17:20:44 ICT" name="HMP_14" finished-at="2021-11-19T17:20:45 ICT" duration-ms="867" status="PASS">
+        <test-method signature="HMP_14()[pri:9, instance:Test.HomePageTest@4facf68f]" started-at="2021-11-20T09:27:07 ICT" name="HMP_14" finished-at="2021-11-20T09:27:08 ICT" duration-ms="780" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HMP_14 -->
-        <test-method signature="HMP_15()[pri:10, instance:Test.HomePageTest@4facf68f]" started-at="2021-11-19T17:20:45 ICT" name="HMP_15" finished-at="2021-11-19T17:20:46 ICT" duration-ms="831" status="PASS">
+        <test-method signature="HMP_15()[pri:10, instance:Test.HomePageTest@4facf68f]" started-at="2021-11-20T09:27:08 ICT" name="HMP_15" finished-at="2021-11-20T09:27:09 ICT" duration-ms="1252" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HMP_15 -->
-        <test-method signature="HMP_16()[pri:11, instance:Test.HomePageTest@4facf68f]" started-at="2021-11-19T17:20:46 ICT" name="HMP_16" finished-at="2021-11-19T17:20:47 ICT" duration-ms="1234" status="PASS">
+        <test-method signature="HMP_16()[pri:11, instance:Test.HomePageTest@4facf68f]" started-at="2021-11-20T09:27:09 ICT" name="HMP_16" finished-at="2021-11-20T09:27:10 ICT" duration-ms="650" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HMP_16 -->
-        <test-method signature="HMP_17()[pri:12, instance:Test.HomePageTest@4facf68f]" started-at="2021-11-19T17:20:47 ICT" name="HMP_17" finished-at="2021-11-19T17:20:48 ICT" duration-ms="1048" status="PASS">
+        <test-method signature="HMP_17()[pri:12, instance:Test.HomePageTest@4facf68f]" started-at="2021-11-20T09:27:10 ICT" name="HMP_17" finished-at="2021-11-20T09:27:11 ICT" duration-ms="1576" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HMP_17 -->
-        <test-method signature="HMP_18()[pri:13, instance:Test.HomePageTest@4facf68f]" started-at="2021-11-19T17:20:48 ICT" name="HMP_18" finished-at="2021-11-19T17:20:59 ICT" duration-ms="10718" status="PASS">
+        <test-method signature="HMP_18()[pri:13, instance:Test.HomePageTest@4facf68f]" started-at="2021-11-20T09:27:11 ICT" name="HMP_18" finished-at="2021-11-20T09:27:20 ICT" duration-ms="8903" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HMP_18 -->
-        <test-method signature="HMP_19()[pri:14, instance:Test.HomePageTest@4facf68f]" started-at="2021-11-19T17:20:59 ICT" name="HMP_19" finished-at="2021-11-19T17:21:00 ICT" duration-ms="859" status="PASS">
+        <test-method signature="HMP_19()[pri:14, instance:Test.HomePageTest@4facf68f]" started-at="2021-11-20T09:27:20 ICT" name="HMP_19" finished-at="2021-11-20T09:27:22 ICT" duration-ms="1228" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HMP_19 -->
-        <test-method signature="HMP_20()[pri:15, instance:Test.HomePageTest@4facf68f]" started-at="2021-11-19T17:21:00 ICT" name="HMP_20" finished-at="2021-11-19T17:21:03 ICT" duration-ms="2936" status="PASS">
+        <test-method signature="HMP_20()[pri:15, instance:Test.HomePageTest@4facf68f]" started-at="2021-11-20T09:27:22 ICT" name="HMP_20" finished-at="2021-11-20T09:27:25 ICT" duration-ms="3071" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HMP_20 -->
-        <test-method signature="HMP_21()[pri:16, instance:Test.HomePageTest@4facf68f]" started-at="2021-11-19T17:21:03 ICT" name="HMP_21" finished-at="2021-11-19T17:21:07 ICT" duration-ms="3649" status="PASS">
+        <test-method signature="HMP_21()[pri:16, instance:Test.HomePageTest@4facf68f]" started-at="2021-11-20T09:27:25 ICT" name="HMP_21" finished-at="2021-11-20T09:27:28 ICT" duration-ms="3711" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HMP_21 -->
-        <test-method signature="HMP_22()[pri:17, instance:Test.HomePageTest@4facf68f]" started-at="2021-11-19T17:21:07 ICT" name="HMP_22" finished-at="2021-11-19T17:21:20 ICT" duration-ms="13153" status="PASS">
+        <test-method signature="HMP_22()[pri:17, instance:Test.HomePageTest@4facf68f]" started-at="2021-11-20T09:27:28 ICT" name="HMP_22" finished-at="2021-11-20T09:27:31 ICT" duration-ms="2914" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HMP_22 -->
-        <test-method signature="HMP_23()[pri:18, instance:Test.HomePageTest@4facf68f]" started-at="2021-11-19T17:21:20 ICT" name="HMP_23" finished-at="2021-11-19T17:21:22 ICT" duration-ms="2099" status="PASS">
+        <test-method signature="HMP_23()[pri:18, instance:Test.HomePageTest@4facf68f]" started-at="2021-11-20T09:27:31 ICT" name="HMP_23" finished-at="2021-11-20T09:27:33 ICT" duration-ms="1842" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HMP_23 -->
-        <test-method signature="HMP_24()[pri:19, instance:Test.HomePageTest@4facf68f]" started-at="2021-11-19T17:21:22 ICT" name="HMP_24" finished-at="2021-11-19T17:21:25 ICT" duration-ms="2780" status="PASS">
+        <test-method signature="HMP_24()[pri:19, instance:Test.HomePageTest@4facf68f]" started-at="2021-11-20T09:27:33 ICT" name="HMP_24" finished-at="2021-11-20T09:27:36 ICT" duration-ms="2658" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HMP_24 -->
-        <test-method signature="HMP_25()[pri:20, instance:Test.HomePageTest@4facf68f]" started-at="2021-11-19T17:21:25 ICT" name="HMP_25" finished-at="2021-11-19T17:21:26 ICT" duration-ms="1450" status="PASS">
+        <test-method signature="HMP_25()[pri:20, instance:Test.HomePageTest@4facf68f]" started-at="2021-11-20T09:27:36 ICT" name="HMP_25" finished-at="2021-11-20T09:27:37 ICT" duration-ms="1377" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HMP_25 -->
-        <test-method signature="HMP26_to_HMP39()[pri:21, instance:Test.HomePageTest@4facf68f]" started-at="2021-11-19T17:21:26 ICT" name="HMP26_to_HMP39" finished-at="2021-11-19T17:21:46 ICT" duration-ms="19503" status="PASS">
+        <test-method signature="HMP26_to_HMP39()[pri:21, instance:Test.HomePageTest@4facf68f]" started-at="2021-11-20T09:27:37 ICT" name="HMP26_to_HMP39" finished-at="2021-11-20T09:28:04 ICT" duration-ms="26422" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HMP26_to_HMP39 -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:Test.HomePageTest@4facf68f]" started-at="2021-11-19T17:22:11 ICT" name="afterTest" finished-at="2021-11-19T17:22:15 ICT" duration-ms="4106" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:Test.HomePageTest@4facf68f]" started-at="2021-11-20T09:28:26 ICT" name="afterTest" finished-at="2021-11-20T09:28:30 ICT" duration-ms="4128" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
